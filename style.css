@@ -1,0 +1,123 @@
+body {
+	background: #F5F5DC;
+	color: 575F7D;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1,h2,h3 {
+  font-family: 'Roboto', sans-serif;	
+}
+
+h1 {
+	color: #1e395a;
+	font-size: 30px;
+}
+
+h2 {
+	color: #ff0800;
+}
+
+a {
+  color: #1e395a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #ff0800;
+  text-decoration: none;
+}
+
+/*Custom design*/
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  text-align: center;
+}
+
+
+.card-white{
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.2);    /* Light shadow */
+margin: 20px 0px;						   /* Unmerge the boxes*/
+text-align: center;
+}
+
+.img-circle{
+border-radius: 5%;
+}
+
+.btn-blue{
+background-color: #1e395a;
+color: white;
+padding: 10px 15px;
+border-radius: 4px;
+}
+/* .btn-blue:hover {
+  background-color: #ff0800;
+  color: white;
+} 
+Pour avoir un hover au fond bleu sur le bouton*/
+
+.list-inline{
+list-style: none;
+padding: auto;
+text-align: left;
+}
+
+.list-inline-footer{
+list-style: none;
+padding-left: 0px;
+}
+.list-inline-footer li {
+display: inline;
+padding: 10px;
+}
+.list-inline-footer i {
+font-size: 40px;
+color: red;
+}
+.list-inline-footer i:hover {
+color: black;
+}
+
+#introduction p{
+margin-bottom: 25px;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .btn-blue{
+  background-color: #1e395a;
+  color: white;
+  padding: 3px 4px;
+  border-radius: 4px;
+  }
+}
+
+.ul-with-bullet{
+  margin: 5px; 
+  padding: auto;
+  text-align: left;
+}
