@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-	color: #ff0800;
+	color: #380098;
 }
 
 a {
@@ -79,7 +79,7 @@ padding: 10px;
 }
 .list-inline-footer i {
 font-size: 40px;
-color: red;
+color: #380098;
 }
 .list-inline-footer i:hover {
 color: black;
